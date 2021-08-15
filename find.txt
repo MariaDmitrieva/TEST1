@@ -1,0 +1,491 @@
+/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/.gitignore
+/usr/local/Homebrew/.gitignore
+/usr/local/Cellar/git/2.31.1/share/man/man5/gitignore.5
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/credential/osxkeychain/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/credential/gnome-keyring/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/credential/netrc/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/coccinelle/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/mw-to-git/t/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/mw-to-git/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/contacts/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/subtree/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/update-unicode/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/diff-highlight/t/.gitignore
+/usr/local/Cellar/git/2.31.1/share/git-core/contrib/diff-highlight/.gitignore
+/usr/local/Cellar/git/2.31.1/share/doc/git-doc/gitignore.html
+/usr/local/Cellar/git/2.31.1/share/doc/git-doc/gitignore.txt
+/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/share/doc/python3.9/examples/Tools/peg_generator/.gitignore
+/usr/local/anaconda3/pkgs/jupyterlab_widgets-1.0.0-pyhd3eb1b0_1/site-packages/jupyterlab_widgets/.gitignore
+/usr/local/anaconda3/pkgs/conda-4.10.1-py38hecd8cb5_1/info/test/tests/integration/proxy/.gitignore
+/usr/local/anaconda3/pkgs/conda-4.10.1-py38hecd8cb5_1/info/test/tests/conda_env/support/advanced-pip/.gitignore
+/usr/local/anaconda3/pkgs/python-3.8.8-h88f2d9e_5/info/recipe/.gitignore
+/usr/local/anaconda3/lib/python3.8/site-packages/jupyterlab_widgets/.gitignore
+/usr/local/share/man/man5/gitignore.5
+/usr/share/vim/vim82/autoload/netrw_gitignore.vim
+/Library/Developer/CommandLineTools/usr/share/man/man5/gitignore.5
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/templates/newgem/gitignore.tt
+/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/mini_portile2-2.4.0/.gitignore
+/System/Volumes/Update/mnt1/usr/share/vim/vim82/autoload/netrw_gitignore.vim
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/templates/newgem/gitignore.tt
+/System/Volumes/Update/mnt1/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/mini_portile2-2.4.0/.gitignore
+/System/Volumes/Data/usr/local/Homebrew/Library/Taps/homebrew/homebrew-cask/.gitignore
+/System/Volumes/Data/usr/local/Homebrew/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/man/man5/gitignore.5
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/credential/osxkeychain/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/credential/gnome-keyring/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/credential/netrc/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/coccinelle/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/mw-to-git/t/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/mw-to-git/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/contacts/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/subtree/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/update-unicode/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/diff-highlight/t/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/git-core/contrib/diff-highlight/.gitignore
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/doc/git-doc/gitignore.html
+/System/Volumes/Data/usr/local/Cellar/git/2.31.1/share/doc/git-doc/gitignore.txt
+/System/Volumes/Data/usr/local/Cellar/python@3.9/3.9.5/Frameworks/Python.framework/Versions/3.9/share/doc/python3.9/examples/Tools/peg_generator/.gitignore
+/System/Volumes/Data/usr/local/anaconda3/pkgs/jupyterlab_widgets-1.0.0-pyhd3eb1b0_1/site-packages/jupyterlab_widgets/.gitignore
+/System/Volumes/Data/usr/local/anaconda3/pkgs/conda-4.10.1-py38hecd8cb5_1/info/test/tests/integration/proxy/.gitignore
+/System/Volumes/Data/usr/local/anaconda3/pkgs/conda-4.10.1-py38hecd8cb5_1/info/test/tests/conda_env/support/advanced-pip/.gitignore
+/System/Volumes/Data/usr/local/anaconda3/pkgs/python-3.8.8-h88f2d9e_5/info/recipe/.gitignore
+/System/Volumes/Data/usr/local/anaconda3/lib/python3.8/site-packages/jupyterlab_widgets/.gitignore
+/System/Volumes/Data/usr/local/share/man/man5/gitignore.5
+/System/Volumes/Data/usr/share/vim/vim82/autoload/netrw_gitignore.vim
+/System/Volumes/Data/Library/Developer/CommandLineTools/usr/share/man/man5/gitignore.5
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/2.6.0/bundler/templates/newgem/gitignore.tt
+/System/Volumes/Data/System/Library/Frameworks/Ruby.framework/Versions/2.6/usr/lib/ruby/gems/2.6.0/gems/mini_portile2-2.4.0/.gitignore
+/System/Volumes/Data/private/var/folders/y1/txnpvqds4jb2g13m5yg2b9780000gn/T/AppTranslocation/9FF62543-D801-4A58-B9F1-BA053728230F/d/Visual Studio Code.app/Contents/Resources/app/extensions/simple-browser/.gitignore
+/System/Volumes/Data/private/var/folders/y1/txnpvqds4jb2g13m5yg2b9780000gn/T/AppTranslocation/9FF62543-D801-4A58-B9F1-BA053728230F/d/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-language-features/.gitignore
+/System/Volumes/Data/private/var/folders/y1/txnpvqds4jb2g13m5yg2b9780000gn/T/AppTranslocation/9FF62543-D801-4A58-B9F1-BA053728230F/d/Visual Studio Code.app/Contents/Resources/app/extensions/notebook-markdown-extensions/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/.virtualenvs/my_django_environment/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Test/.idea/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Library/Mobile Documents/com~apple~CloudDocs/.Trash/django-allauth-master/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/social/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/PycharmProjects/intouch/.idea/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/PycharmProjects/ByteWalk/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/PycharmProjects/ByteWalk/.idea/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/PycharmProjects/.idea/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/social_TEST/.idea/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/social1/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/.vscode/extensions/ms-python.python-2021.8.1105858891/pythonFiles/lib/python/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/.vscode/extensions/ms-python.python-2021.8.1105858891/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_frame_eval/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/simple-browser/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-language-features/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/notebook-markdown-extensions/.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Perl6.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Sass.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Scala.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Joomla.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CakePHP.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Go.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Yeoman.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ZendFramework.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/KiCad.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Textpattern.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ExpressionEngine.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Typo3.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Packer.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Elisp.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/EPiServer.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Gcov.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Haskell.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/GWT.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/LabVIEW.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/C++.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Objective-C.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Composer.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SketchUp.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Eagle.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Android.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Symfony.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ExtJs.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Erlang.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Finale.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Sdcc.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/LICENSE
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Scrivener.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Qooxdoo.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/RhodesRhomobile.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/PlayFramework.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Stella.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SugarCRM.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Delphi.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/TurboGears2.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Waf.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Leiningen.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Dart.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/R.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ChefCookbook.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/MetaProgrammingSystem.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CFWheels.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Lilypond.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Processing.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Kohana.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Clojure.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/GitBook.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Lithium.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Magento.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Node.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Python.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Nim.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Terraform.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Yii.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Nanoc.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Umbraco.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/DM.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Java.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Elixir.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/WordPress.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Godot.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Xojo.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ArchLinuxPackages.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Jekyll.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Ada.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/D.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/README.md
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Elm.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Actionscript.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Swift.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Grails.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Laravel.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Perl.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CMake.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/VVVV.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/VisualStudio.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CraftCMS.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Coq.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Rust.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Scheme.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CONTRIBUTING.md
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/IGORPro.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Drupal.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Plone.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/.github
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/.github/PULL_REQUEST_TEMPLATE.md
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/AppEngine.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Mercury.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Jboss.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Lua.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/PureScript.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CUDA.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/AppceleratorTitanium.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Concrete5.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CodeIgniter.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Fortran.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Julia.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ForceDotCom.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/OracleForms.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Smalltalk.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Rails.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Phalcon.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Prestashop.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Agda.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Unity.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/FuelPHP.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/LemonStand.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SeamGen.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SCons.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SymphonyCMS.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CommonLisp.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Gradle.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Maven.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Ruby.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/OpenCart.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Fancy.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/TeX.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Zephir.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/.travis.yml
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/OCaml.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Bazaar.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/TortoiseGit.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Mercurial.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/LibreOffice.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Calabash.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Lazarus.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/macOS.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/CodeKit.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/EiffelStudio.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SBT.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/BricxCC.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Ninja.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/KDevelop4.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Redcar.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Patch.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Stata.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SlickEdit.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/LyX.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/ModelSim.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Anjuta.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/CVS.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Tags.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/WebMethods.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Linux.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/JetBrains.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Cloud9.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/GPG.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/VirtualEnv.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SublimeText.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Otto.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/TextMate.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Espresso.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Eclipse.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/PSoCCreator.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/README.md
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/NotepadPP.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Vim.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Redis.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/NetBeans.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/MonoDevelop.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Emacs.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/DartEditor.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Ensime.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Dropbox.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Kate.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Images.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/XilinxISE.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Vagrant.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/MicrosoftOffice.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/JEnv.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Archives.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Backup.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SynopsysVCS.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/VisualStudioCode.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Windows.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SVN.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/FlexBuilder.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Ansible.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Matlab.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Momentics.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Diff.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Xcode.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/JDeveloper.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Dreamweaver.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/UnrealEngine.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Autotools.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/C.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Kotlin.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Qt.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ROS.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Idris.gitignore
+/System/Volumes/Data/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Opa.gitignore
+/System/Volumes/Data/Applications/Xcode.app/Contents/Developer/usr/share/man/man5/gitignore.5
+/private/var/folders/y1/txnpvqds4jb2g13m5yg2b9780000gn/T/AppTranslocation/9FF62543-D801-4A58-B9F1-BA053728230F/d/Visual Studio Code.app/Contents/Resources/app/extensions/simple-browser/.gitignore
+/private/var/folders/y1/txnpvqds4jb2g13m5yg2b9780000gn/T/AppTranslocation/9FF62543-D801-4A58-B9F1-BA053728230F/d/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-language-features/.gitignore
+/private/var/folders/y1/txnpvqds4jb2g13m5yg2b9780000gn/T/AppTranslocation/9FF62543-D801-4A58-B9F1-BA053728230F/d/Visual Studio Code.app/Contents/Resources/app/extensions/notebook-markdown-extensions/.gitignore
+/Users/mariadmitrieva/.virtualenvs/my_django_environment/.gitignore
+/Users/mariadmitrieva/Test/.idea/.gitignore
+/Users/mariadmitrieva/Library/Mobile Documents/com~apple~CloudDocs/.Trash/django-allauth-master/.gitignore
+/Users/mariadmitrieva/social/.gitignore
+/Users/mariadmitrieva/PycharmProjects/intouch/.idea/.gitignore
+/Users/mariadmitrieva/PycharmProjects/ByteWalk/.gitignore
+/Users/mariadmitrieva/PycharmProjects/ByteWalk/.idea/.gitignore
+/Users/mariadmitrieva/PycharmProjects/.idea/.gitignore
+/Users/mariadmitrieva/social_TEST/.idea/.gitignore
+/Users/mariadmitrieva/social1/.gitignore
+/Users/mariadmitrieva/.vscode/extensions/ms-python.python-2021.8.1105858891/pythonFiles/lib/python/debugpy/_vendored/pydevd/pydevd_attach_to_process/linux_and_mac/.gitignore
+/Users/mariadmitrieva/.vscode/extensions/ms-python.python-2021.8.1105858891/pythonFiles/lib/python/debugpy/_vendored/pydevd/_pydevd_frame_eval/.gitignore
+/Users/mariadmitrieva/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/simple-browser/.gitignore
+/Users/mariadmitrieva/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/markdown-language-features/.gitignore
+/Users/mariadmitrieva/Downloads/Visual Studio Code.app/Contents/Resources/app/extensions/notebook-markdown-extensions/.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Perl6.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Sass.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Scala.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Joomla.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CakePHP.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Go.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Yeoman.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ZendFramework.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/KiCad.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Textpattern.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ExpressionEngine.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Typo3.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Packer.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Elisp.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/EPiServer.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Gcov.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Haskell.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/GWT.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/LabVIEW.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/C++.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Objective-C.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Composer.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SketchUp.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Eagle.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Android.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Symfony.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ExtJs.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Erlang.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Finale.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Sdcc.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/LICENSE
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Scrivener.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Qooxdoo.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/RhodesRhomobile.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/PlayFramework.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Stella.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SugarCRM.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Delphi.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/TurboGears2.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Waf.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Leiningen.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Dart.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/R.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ChefCookbook.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/MetaProgrammingSystem.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CFWheels.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Lilypond.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Processing.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Kohana.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Clojure.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/GitBook.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Lithium.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Magento.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Node.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Python.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Nim.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Terraform.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Yii.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Nanoc.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Umbraco.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/DM.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Java.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Elixir.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/WordPress.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Godot.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Xojo.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ArchLinuxPackages.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Jekyll.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Ada.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/D.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/README.md
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Elm.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Actionscript.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Swift.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Grails.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Laravel.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Perl.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CMake.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/VVVV.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/VisualStudio.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CraftCMS.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Coq.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Rust.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Scheme.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CONTRIBUTING.md
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/IGORPro.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Drupal.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Plone.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/.github
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/.github/PULL_REQUEST_TEMPLATE.md
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/AppEngine.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Mercury.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Jboss.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Lua.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/PureScript.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CUDA.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/AppceleratorTitanium.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Concrete5.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CodeIgniter.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Fortran.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Julia.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ForceDotCom.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/OracleForms.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Smalltalk.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Rails.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Phalcon.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Prestashop.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Agda.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Unity.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/FuelPHP.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/LemonStand.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SeamGen.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SCons.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/SymphonyCMS.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/CommonLisp.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Gradle.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Maven.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Ruby.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/OpenCart.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Fancy.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/TeX.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Zephir.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/.travis.yml
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/OCaml.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Bazaar.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/TortoiseGit.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Mercurial.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/LibreOffice.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Calabash.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Lazarus.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/macOS.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/CodeKit.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/EiffelStudio.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SBT.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/BricxCC.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Ninja.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/KDevelop4.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Redcar.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Patch.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Stata.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SlickEdit.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/LyX.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/ModelSim.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Anjuta.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/CVS.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Tags.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/WebMethods.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Linux.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/JetBrains.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Cloud9.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/GPG.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/VirtualEnv.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SublimeText.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Otto.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/TextMate.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Espresso.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Eclipse.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/PSoCCreator.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/README.md
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/NotepadPP.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Vim.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Redis.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/NetBeans.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/MonoDevelop.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Emacs.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/DartEditor.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Ensime.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Dropbox.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Kate.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Images.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/XilinxISE.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Vagrant.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/MicrosoftOffice.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/JEnv.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Archives.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Backup.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SynopsysVCS.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/VisualStudioCode.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Windows.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/SVN.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/FlexBuilder.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Ansible.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Matlab.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Momentics.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Diff.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Xcode.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/JDeveloper.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Global/Dreamweaver.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/UnrealEngine.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Autotools.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/C.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Kotlin.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Qt.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/ROS.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Idris.gitignore
+/Users/mariadmitrieva/Downloads/GitHub Desktop.app/Contents/Resources/app/static/gitignore/Opa.gitignore
+/Applications/Xcode.app/Contents/Developer/usr/share/man/man5/gitignore.5
