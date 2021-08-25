@@ -39,15 +39,15 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'django.contrib.sites',
 
-
     'posts',
     'profiles',
-  
 
     'allauth',
     'allauth.account',
     'allauth.socialaccount',
     'django_social_share',
+
+    'sorl.thumbnail',
 ]
 
 SITE_ID = 1

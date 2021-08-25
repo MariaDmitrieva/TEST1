@@ -1,7 +1,16 @@
 from django.contrib import admin
-from .models import Post, Comment, Like
-# Register your models here.
+from .models import Post, Comment, Like, PostImage
+from sorl.thumbnail.admin import AdminImageMixin
 
-admin.site.register(Post)
+
+class PostImageInline(AdminImageMixin, admin.TabularInline):
+    model = PostImage
+
+
+class PostAdmin(admin.ModelAdmin):
+    inlines = [PostImageInline]
+
+
+admin.site.register(Post, PostAdmin)
 admin.site.register(Comment)
 admin.site.register(Like)

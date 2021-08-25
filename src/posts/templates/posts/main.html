@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load thumbnail %}
 {% block title %}main page{% endblock title %}
 
 {% block content %}
@@ -25,11 +25,20 @@
             </div>
             <div class="ui fluid image">
                 {% if obj.image %}
-                    <img src={{obj.image.url}}>
+                    {% thumbnail obj.image "400x300" crop="center" as im %}
+                        <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                    {% endthumbnail %}
                 {% endif %}
             </div>
             <div class="content">
                 <p> {{ obj.content }} </p>
+                <div>
+                    {% for post_image in obj.post_images.all %}
+                    {% thumbnail post_image.image "200x150" crop="center" as im %}
+                        <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                    {% endthumbnail %}
+                    {% endfor %}
+                </div>
                 <div class="right floated">
                     <form action="{% url 'posts:like-post-view' %}" method="POST" class='like-form' id='{{obj.id}}'>
                         {% csrf_token %}

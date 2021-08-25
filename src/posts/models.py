@@ -1,11 +1,13 @@
 from django.db import models
 from django.core.validators import FileExtensionValidator
 from profiles.models import Profile
-# Create your models here.
+from sorl.thumbnail import ImageField
+
 
 class Post(models.Model):
     content = models.TextField()
-    image = models.ImageField(upload_to='posts', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])], blank=True)
+    # image = models.ImageField(upload_to='posts', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])], blank=True)
+    image = ImageField(upload_to='post_images', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])], blank=True)
     liked = models.ManyToManyField(Profile, blank=True, related_name='likes')
     updated = models.DateTimeField(auto_now=True)
     created = models.DateTimeField(auto_now_add=True)
@@ -23,6 +25,7 @@ class Post(models.Model):
     class Meta:
         ordering = ('-created',)
 
+
 class Comment(models.Model):
     user = models.ForeignKey(Profile, on_delete=models.CASCADE)
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
@@ -38,6 +41,7 @@ LIKE_CHOICES = (
     ('Unlike', 'Unlike'),
 )
 
+
 class Like(models.Model): 
     user = models.ForeignKey(Profile, on_delete=models.CASCADE)
     post = models.ForeignKey(Post, on_delete=models.CASCADE)
@@ -48,5 +52,10 @@ class Like(models.Model):
     def __str__(self):
         return f"{self.user}-{self.post}-{self.value}"
 
-    
-    
+
+class PostImage(models.Model):
+    post = models.ForeignKey(Post, on_delete=models.CASCADE, related_name='post_images')
+    image = ImageField(upload_to='posts', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])])
+
+    def __str__(self):
+        return f"{self.post.id}-{self.image}"
