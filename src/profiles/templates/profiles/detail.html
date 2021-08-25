@@ -28,6 +28,15 @@ profile detail
                     Friends
                     <div class="ui label">{{ object.get_friends_no }}</div>
                 </div>
+                <div class="item">
+                    {% load social_share %}
+
+                    {% post_to_facebook object "Post to Facebook!" %}
+                    {% post_to_twitter "Tweet Me!" object "Post to Twitter" %}
+                    {% post_to_gplus object "Post to Google+!" %}
+                    {% post_to_linkedin object %}
+                    {% save_to_pinterest object %}
+                </div>
             </div>
 
             {% if object.user not in rel_receiver and object.user not in rel_sender %}
