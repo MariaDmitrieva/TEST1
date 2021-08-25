@@ -1,6 +1,7 @@
 {% extends 'base.html' %}
 {% load thumbnail %}
 
+
 {% block title %}
 my profile
 {% endblock title %}
@@ -101,18 +102,19 @@ my profile
                             <td>{{profile.get_likes_recieved_no}}</td>
                         </tr>
                         <tr>
-                            <th colspan="2">Share</th>
+                            {% url 'profiles:profile-detail-view' slug=request.user as path_my_profile_detail_view %}
+                            <th>My profile URL profile_url</th>
+                            <td><a href="{{ profile_url }}"><b>{{ profile_url }}</b></a></td>
                         </tr>
                         <tr>
-                            <td colspan="2">
-                                <a hre="{{ request.build_absolute_uri }}"><b>{{ request.build_absolute_uri }}</b></a><br>
+                            <th valign="top">Share</th>
+                            <td>
                                 {% load social_share %}
 
-                                {% post_to_facebook object_or_url "Post to Facebook!" %}
-                                {% post_to_whatsapp  object_or_url "Share To WhatsApp" %}
-                                {% post_to_reddit  object_or_url "Share To Reddit" %}
-                                {% post_to_twitter "Tweet Me!" object "Post to Twitter" %}
-                                {% post_to_telegram "Telegram me {{object.title}}" object_or_url %}
+                                {% post_to_facebook profile_url "Post to Facebook!" %}
+                                {% post_to_whatsapp  profile_url "Share To WhatsApp" %}
+                                {% post_to_reddit  profile_url "Share To Reddit" %}
+                                {% post_to_telegram "Telegram me " profile_url %}
                             </td>
                         </tr>
                         

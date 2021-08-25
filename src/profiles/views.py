@@ -1,5 +1,7 @@
 from django.db.models.functions import Concat
 from django.shortcuts import render, redirect, get_object_or_404
+from django.urls import reverse
+
 from .models import Profile, Relationship
 from .forms import ProfileModelForm
 from django.views.generic import ListView, DetailView
@@ -21,6 +23,9 @@ def my_profile_view(request):
             confirm = True
 
     context = {
+        'profile_url': f'{request.scheme}://{request.get_host()}' +
+                       reverse('profiles:profile-detail-view', kwargs={'slug': request.user}),
+
         'profile': profile,
         'form': form,
         'confirm': confirm,
