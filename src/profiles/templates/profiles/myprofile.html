@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load thumbnail %}
 
 {% block title %}
 my profile
@@ -42,7 +43,14 @@ my profile
     <div class="ui grid">
         <div class='row'>
             <div class='six wide column'>
-                <img class="ui medium rounded image" src={{profile.avatar.url}}>
+                {% thumbnail profile.avatar "300x300" crop="center" as im %}
+                    <a href="{{ profile.avatar.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                {% endthumbnail %}
+                <br>
+                {% thumbnail profile.image "300x300" crop="center" as im %}
+                    <a href="{{ profile.image.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                {% endthumbnail %}
+
                 <div class="row mt-5">
                     <button class='ui secondary button' id='modal-btn'>Update your profile</button>
                 </div>

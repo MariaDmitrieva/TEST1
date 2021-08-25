@@ -5,6 +5,9 @@
 {% url 'profiles:search' as profiles_search %}
 {% url 'profiles:invite-profiles-view' as path_to_invites %}
 {% url 'profiles:all-profiles-view' as path_to_all_profiles %}
+{% url 'profiles:profile-detail-view' slug=request.user as path_my_profile_detail_view %}
+{% load thumbnail %}
+
 
 <div class="ui inverted menu nav mb-7">
   <div class="ui container">
@@ -45,8 +48,11 @@
             </form>
             </div>
         
-            <a href="{{path_to_my_profile}}" class="{% if request.path == path_to_my_profile %}active{% endif %} item">
-                <img src={{picture.url}} class="ui avatar image">&nbsp;
+            <a href="{{ path_my_profile_detail_view }}" class="{% if request.path == path_my_profile_detail_view %}active{% endif %} item">
+                {% thumbnail picture "27x27" crop="center" as im %}
+                    <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                    {% empty %}
+                {% endthumbnail %}&nbsp;
                  {{ request.user }}
             </a>
 

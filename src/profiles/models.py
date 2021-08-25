@@ -45,6 +45,7 @@ class Profile(models.Model):
     email = models.EmailField(max_length=200, blank=True)
     country = models.CharField(max_length=200, blank=True)
     avatar = ImageField(default='avatar.png', upload_to='avatars', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])], blank=True)
+    image = ImageField(upload_to='avatars', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])], blank=True)
     friends = models.ManyToManyField(User, blank=True, related_name='friends')
     slug = models.SlugField(unique=True, blank=True)
     updated = models.DateTimeField(auto_now=True)
