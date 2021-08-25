@@ -1,5 +1,5 @@
 {% extends 'base.html' %}
-
+{% load thumbnail %}
 {% block title %}
 all profiles
 {% endblock title %}
@@ -15,7 +15,13 @@ all profiles
             <div class="ui grid">
                 <div class="row">
                     <div class="three wide column">
-                        <img class="ui small circular image" src={{obj.avatar.url}}>
+                        {% thumbnail obj.avatar "300x300" crop="noop" as im %}
+                            <a href="{{ obj.avatar.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                        {% endthumbnail %}
+                        <br>
+                        {% thumbnail obj.image "300x300" crop="noop" as im %}
+                            <a href="{{ obj.image.url }}" data-lightbox="image {{ obg.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                        {% endthumbnail %}
                     </div>
                     <div class="thirteen wide column">
                         <h3>{{obj.user}}</h3>

@@ -9,7 +9,7 @@ profile detail
 <div class="ui grid">
     <br>
     <div class="row">
-        <div class="four wide column">
+        <div class="six wide column">
                 {% thumbnail profile.avatar "300x300" crop="noop" as im %}
                     <a href="{{ profile.avatar.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
                 {% endthumbnail %}
@@ -17,9 +17,10 @@ profile detail
                 {% thumbnail profile.image "300x300" crop="noop" as im %}
                     <a href="{{ profile.image.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
                 {% endthumbnail %}
-
+        </div>
+        <div class="ten wide fluid column">
             <h1>{{object.user}}</h1>
-            <div class="ui vertical fluid menu">
+            <div class="ui vertical  menu">
                 <div class="item">
                     Posts
                     <div class="ui label">{{ object.get_posts_no }}</div>
@@ -66,8 +67,9 @@ profile detail
                     <button type="submit" class="ui negative basic button mb-5 w-big"><i class="minus square icon"></i>Remove from friends</button>
                 </form>
             {% endif %}
-
         </div>
+    </div>
+    <div class="row">
         <div class="twelve wide column">
             {% if len_posts %}
                 {% for post in posts %}
