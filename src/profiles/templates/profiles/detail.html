@@ -1,4 +1,5 @@
 {% extends 'base.html' %}
+{% load thumbnail %}
 
 {% block title %}
 profile detail
@@ -16,7 +17,7 @@ profile detail
                 {% thumbnail profile.image "300x300" crop="noop" as im %}
                     <a href="{{ profile.image.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
                 {% endthumbnail %}
-            
+
             <h1>{{object.user}}</h1>
             <div class="ui vertical fluid menu">
                 <div class="item">
