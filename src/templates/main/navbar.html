@@ -50,7 +50,7 @@
         
             <a href="{{ path_to_my_profile }}" class="{% if request.path == path_my_profile_detail_view %}active{% endif %} item">
                 {% thumbnail picture "27x27" crop="center" as im %}
-                    <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}">
+                    <img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}" crop="noop">
                     {% empty %}
                 {% endthumbnail %}&nbsp;
                  {{ request.user }}
