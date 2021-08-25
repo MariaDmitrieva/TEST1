@@ -1,11 +1,16 @@
 from django import forms
-from .models import Post, Comment
+from django.forms import inlineformset_factory
+
+from .models import Post, Comment, PostImage
+
 
 class PostModelForm(forms.ModelForm):
     content = forms.CharField(widget=forms.Textarea(attrs={'rows':2}))
+
     class Meta:
         model = Post
-        fields = ('content', 'image')
+        fields = ('content', 'image', )
+
 
 class CommentModelForm(forms.ModelForm):
     body = forms.CharField(label='', 

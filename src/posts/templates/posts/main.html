@@ -106,6 +106,9 @@
             <form action="" method="POST" class='ui form' enctype="multipart/form-data">
                 {% csrf_token %}
                 {{p_form}}
+                <label for="id_images">Other Images:</label>
+                <input type="file" name="images" id="id_images" multiple="1">
+
                 <button type='submit' name="submit_p_form" class="ui positive button w-full mt-5">Send</button>
             </form>
         </div>

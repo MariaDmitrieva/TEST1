@@ -1,6 +1,7 @@
+from django.forms import inlineformset_factory
 from django.shortcuts import render, redirect
 from django.urls import reverse_lazy
-from .models import Post, Like
+from .models import Post, Like, PostImage
 from profiles.models import Profile
 from .forms import PostModelForm, CommentModelForm
 from django.views.generic import UpdateView, DeleteView
