@@ -33,7 +33,8 @@ profile detail
 
                     {% post_to_facebook object "Post to Facebook!" %}
                     {% post_to_twitter "Tweet Me!" object "Post to Twitter" %}
-                    {% post_to_gplus object "Post to Google+!" %}
+                    {% post_to_telegram "Add me {{object.title}}" object %}
+                    {% post_to_whatsapp object "Share via WhatsApp" %}
                     {% post_to_linkedin object %}
                     {% save_to_pinterest object %}
                 </div>
