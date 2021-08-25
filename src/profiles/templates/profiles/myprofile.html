@@ -100,7 +100,21 @@ my profile
                             <td>number of likes received</td>
                             <td>{{profile.get_likes_recieved_no}}</td>
                         </tr>
+                        <tr>
+                            <th colspan="2">Share</th>
+                        </tr>
+                        <tr>
+                            <td colspan="2">
+                                <a hre="{{ request.build_absolute_uri }}"><b>{{ request.build_absolute_uri }}</b></a><br>
+                                {% load social_share %}
 
+                                {% post_to_facebook object_or_url "Post to Facebook!" %}
+                                {% post_to_whatsapp  object_or_url "Share To WhatsApp" %}
+                                {% post_to_reddit  object_or_url "Share To Reddit" %}
+                                {% post_to_twitter "Tweet Me!" object "Post to Twitter" %}
+                                {% post_to_telegram "Telegram me {{object.title}}" object_or_url %}
+                            </td>
+                        </tr>
                         
                     </tbody>
                 </table>
