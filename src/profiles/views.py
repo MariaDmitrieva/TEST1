@@ -1,9 +1,10 @@
+from django.db.models.functions import Concat
 from django.shortcuts import render, redirect, get_object_or_404
 from .models import Profile, Relationship
 from .forms import ProfileModelForm
 from django.views.generic import ListView, DetailView
 from django.contrib.auth.models import User
-from django.db.models import Q
+from django.db.models import Q, Value
 from django.contrib.auth.decorators import login_required
 from django.contrib.auth.mixins import LoginRequiredMixin
 # Create your views here.
@@ -73,6 +74,16 @@ def invite_profiles_list_view(request):
     context = {'qs': qs}
 
     return render(request, 'profiles/to_invite_list.html', context)
+
+
+def profiles_search(request):
+    search = request.GET.get('q')
+
+    profiles = Profile.objects.annotate(full_name=Concat('first_name', Value(' '), 'last_name')). \
+        filter(full_name__icontains=search)
+    context = {'profiles': profiles}
+    return render(request, 'profiles/profile_search.html', context)
+
 
 @login_required
 def profiles_list_view(request):

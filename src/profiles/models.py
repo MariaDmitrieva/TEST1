@@ -1,9 +1,12 @@
+from django.core.validators import FileExtensionValidator
 from django.db import models
 from django.shortcuts import reverse
 from django.contrib.auth.models import User
 from .utils import get_random_code
 from django.template.defaultfilters import slugify
 from django.db.models import Q
+from sorl.thumbnail import ImageField
+
 # Create your models here.
 
 class ProfileManager(models.Manager):
@@ -41,7 +44,7 @@ class Profile(models.Model):
     bio = models.TextField(default="no bio...", max_length=300)
     email = models.EmailField(max_length=200, blank=True)
     country = models.CharField(max_length=200, blank=True)
-    avatar = models.ImageField(default='avatar.png', upload_to='avatars/')
+    avatar = ImageField(default='avatar.png', upload_to='avatars', validators=[FileExtensionValidator(['png', 'jpg', 'jpeg'])], blank=True)
     friends = models.ManyToManyField(User, blank=True, related_name='friends')
     slug = models.SlugField(unique=True, blank=True)
     updated = models.DateTimeField(auto_now=True)
