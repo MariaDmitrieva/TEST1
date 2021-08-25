@@ -35,9 +35,7 @@ profile detail
                     {% post_to_whatsapp  object_or_url "Share To WhatsApp" %}
                     {% post_to_reddit  object_or_url "Share To Reddit" %}
                     {% post_to_twitter "Tweet Me!" object "Post to Twitter" %}
-                    {% post_to_telegram "Telegram me {{object.title}}" object %}
-                    {% post_to_linkedin object %}
-                    {% save_to_pinterest object %}
+                    {% post_to_telegram "Telegram me {{object.title}}" object_or_url %}
                 </div>
             </div>
 
