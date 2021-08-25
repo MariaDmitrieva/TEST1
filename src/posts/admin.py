@@ -7,7 +7,7 @@ class PostImageInline(AdminImageMixin, admin.TabularInline):
     model = PostImage
 
 
-class PostAdmin(admin.ModelAdmin):
+class PostAdmin(AdminImageMixin, admin.ModelAdmin):
     inlines = [PostImageInline]
 
 
