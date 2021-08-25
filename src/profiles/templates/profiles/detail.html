@@ -9,7 +9,14 @@ profile detail
     <br>
     <div class="row">
         <div class="four wide column">
-            <img class="ui medium rounded image" src={{object.avatar.url}}>
+                {% thumbnail profile.avatar "300x300" crop="noop" as im %}
+                    <a href="{{ profile.avatar.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                {% endthumbnail %}
+                <br>
+                {% thumbnail profile.image "300x300" crop="noop" as im %}
+                    <a href="{{ profile.image.url }}" data-lightbox="image {{ post_image.id }}"><img class="ui medium rounded image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                {% endthumbnail %}
+            
             <h1>{{object.user}}</h1>
             <div class="ui vertical fluid menu">
                 <div class="item">
