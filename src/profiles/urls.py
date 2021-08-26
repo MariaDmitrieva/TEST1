@@ -23,7 +23,7 @@ urlpatterns = [
     path('send-invite/', send_invatation, name='send-invite'),
     path('remove-friend/', remove_from_friends, name='remove-friend'),
     path('search/', profiles_search, name='search'),
+    path('<slug>/', ProfileDetailView.as_view(), name='profile-detail-view'),
     path('my-invites/acctept/', accept_invatation, name='accept-invite'),
     path('my-invites/reject/', reject_invatation, name='reject-invite'),
-    path('<slug>/', ProfileDetailView.as_view(), name='profile-detail-view'),
 ]
