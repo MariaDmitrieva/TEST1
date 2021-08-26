@@ -74,7 +74,16 @@ profile detail
             {% if len_posts %}
                 {% for post in posts %}
                     <div class="segment ui fluid">
-                        {{post.content}}
+                        {{post.content}}<br>
+                        {% thumbnail post.image "150x150" crop="noop" as im %}
+                            <a  style="float: left; margin: 5px;"  href="{{ post.image }}" data-lightbox="image {{ post_image.id }}"><img class="ui   image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                        {% endthumbnail %}
+                        {% for post_image in post.post_images.all %}
+                            {% thumbnail post_image.image "150x150" crop="noop" as im %}
+                                <a style="float: left; margin: 5px;" href="{{ post_image.image }}" data-lightbox="image {{ post_image.id }}"><img class="ui   image" src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                            {% endthumbnail %}
+                        {% endfor %}
+                        <div style="clear: both"></div>
                     </div>
                 {% endfor %}
             {% else %}

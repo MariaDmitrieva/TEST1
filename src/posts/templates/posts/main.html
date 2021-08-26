@@ -37,9 +37,9 @@
             <div class="content">
                 <div>
                     {% for post_image in obj.post_images.all %}
-                    {% thumbnail post_image.image "200x150" crop="center" as im %}
-                        <a href="{{ post_image.image.url }}" data-lightbox="image {{ post_image.id }}"><img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
-                    {% endthumbnail %}
+                        {% thumbnail post_image.image "200x150" crop="center" as im %}
+                            <a href="{{ post_image.image.url }}" data-lightbox="image {{ post_image.id }}"><img src="{{ im.url }}" width="{{ im.width }}" height="{{ im.height }}"></a>
+                        {% endthumbnail %}
                     {% endfor %}
                 </div>
                 <div class="right floated">
