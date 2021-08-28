@@ -108,7 +108,7 @@ def profiles_list_view(request):
 # ? LoginRequiredMixin ?
 class ProfileDetailView(DetailView):
     model = Profile
-    template_name = 'profiles/detail.html'
+    template_name = 'profiles/detail-adp.html'
 
     # def get_object(self, **kwargs):
         # slug = self.kwargs.get('slug')

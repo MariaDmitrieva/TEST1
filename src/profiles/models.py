@@ -110,6 +110,14 @@ class Profile(models.Model):
         self.slug = to_slug
         super().save(*args, **kwargs)
 
+    def get_fullname(self):
+        return f'{self.first_name} {self.last_name}'
+
+    def get_name(self):
+        if self.get_fullname().strip():
+            return self.get_fullname()
+        return self.user.name
+
 STATUS_CHOICES = (
     ('send', 'send'),
     ('accepted', 'accepted')
